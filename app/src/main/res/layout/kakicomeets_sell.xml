@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Kakicomeets_Sell_Activity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/sellSelectImageView"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/sellTakePhotoView"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            tools:srcCompat="@android:drawable/ic_menu_camera" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/sellInputName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="商品名" />
+
+    <EditText
+        android:id="@+id/sellInputDetails"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:hint="詳細" />
+
+    <EditText
+        android:id="@+id/sellInputAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="発送元の住所" />
+
+    <Button
+        android:id="@+id/sellButton"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="出品" />
+
+
+
+
+
+
+</LinearLayout>
+
