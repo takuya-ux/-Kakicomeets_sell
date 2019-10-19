@@ -23,7 +23,7 @@ public class Kakicomeets_Sell_Activity extends AppCompatActivity {
 
         imageView = findViewById(R.id.sellTakePhotoView);
 
-        ImageView sellTakePhotoview (ImageView)this.findViewById(R.id.sellTakePhotoView);
+        ImageView sellTakePhotoview = this.findViewById(R.id.sellTakePhotoView);
         sellTakePhotoview.setImageResource(R.drawable.ic_launcher);
 
         sellTakePhotoview.setOnClickListener(
@@ -39,6 +39,7 @@ public class Kakicomeets_Sell_Activity extends AppCompatActivity {
 
     @Override
     protected  void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Bitmap bitmap;
         if(data.getExtras() == null){
             Log.d("debug","cancel ?");
             return;
@@ -48,7 +49,7 @@ public class Kakicomeets_Sell_Activity extends AppCompatActivity {
             if(bitmap != null){
                 int bmpWidth = bitmap.getWidth();
                 int bmpHeight = bitmap.getHeight();
-                Log.d("debug"),String.format("w= %d",bmpWidth));
+                Log.d("debug",String.format("w= %d",bmpWidth));
                 Log.d("debug",String.format("h= %d",bmpHeight));
 
             }
