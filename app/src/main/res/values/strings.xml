@@ -2,7 +2,11 @@
     <string name="app_name">Kakicomeets_sell</string>
     <string-array name="category">
         <item>参考書</item>
+<<<<<<< HEAD
         <item>技術書</item>
+=======
+        <item>小説</item>
+>>>>>>> ImageViewの設定
         <item>その他</item>
     </string-array>
 
