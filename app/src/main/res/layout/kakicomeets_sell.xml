@@ -34,7 +34,8 @@
     <Spinner
         android:id="@+id/sellCategory"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:entries="@array/category" />
 
     <EditText
         android:id="@+id/sellInputDetails"
