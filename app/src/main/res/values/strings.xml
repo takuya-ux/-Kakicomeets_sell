@@ -2,6 +2,7 @@
     <string name="app_name">Kakicomeets_sell</string>
     <string-array name="category">
         <item>参考書</item>
+        <item>技術書</item>
         <item>その他</item>
     </string-array>
 
