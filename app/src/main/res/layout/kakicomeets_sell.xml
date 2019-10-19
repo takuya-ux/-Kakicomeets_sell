@@ -31,6 +31,11 @@
         android:layout_height="50dp"
         android:hint="商品名" />
 
+    <Spinner
+        android:id="@+id/sellCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <EditText
         android:id="@+id/sellInputDetails"
         android:layout_width="300dp"
