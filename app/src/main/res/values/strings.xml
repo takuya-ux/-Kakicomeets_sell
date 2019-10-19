@@ -3,10 +3,14 @@
     <string-array name="category">
         <item>参考書</item>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <item>技術書</item>
 =======
         <item>小説</item>
 >>>>>>> ImageViewの設定
+=======
+        <item>伝記</item>
+>>>>>>> bitmap-エラー解決
         <item>その他</item>
     </string-array>
 
