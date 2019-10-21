@@ -8,4 +8,11 @@
         <item>その他</item>
     </string-array>
 
+    <string-array name="condition">
+        <item>新品</item>
+        <item>美品</item>
+        <item>中古</item>
+        <item>ジャンク</item>
+    </string-array>
+
 </resources>

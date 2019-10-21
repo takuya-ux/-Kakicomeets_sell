@@ -43,6 +43,12 @@
         android:layout_height="200dp"
         android:hint="詳細" />
 
+    <Spinner
+        android:id="@+id/sellCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/condition"/>
+
     <EditText
         android:id="@+id/sellInputAddress"
         android:layout_width="300dp"
